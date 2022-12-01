@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "BinanceML (nie machine learning)",
+  "version": "1.0",
+  "description": "nie sprzedawaj/kupuj gwizdkuw",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://www.binance.com/*/futures/*"
+      ]
+    }
+  ]
+}
